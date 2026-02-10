@@ -1,12 +1,147 @@
+
 <!doctype html>
 <html lang="zh-Hant">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>台股每日投資報告</title>
+  <style>
+    :root {
+      --bg: #f6f1ea;
+      --card: #fffaf3;
+      --ink: #1d1a17;
+      --accent: #2c5e4a;
+      --muted: #6c5f55;
+    }
+    body {
+      margin: 0;
+      font-family: "Noto Serif TC", "Source Han Serif", "PMingLiU", serif;
+      color: var(--ink);
+      background: radial-gradient(circle at top right, #f9e9d5 0%, #f6f1ea 40%, #efe6db 100%);
+    }
+    header {
+      padding: 24px 18px 12px;
+      background: linear-gradient(135deg, #f1dfc7 0%, #fffaf3 55%, #f0e1cf 100%);
+      border-bottom: 1px solid #e0d4c5;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 22px;
+      letter-spacing: 1px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+    }
+    main {
+      padding: 14px 18px 28px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid #e6d9c9;
+      border-radius: 12px;
+      padding: 14px;
+      margin-bottom: 14px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+    th, td {
+      padding: 8px 6px;
+      border-bottom: 1px solid #eadfd0;
+      text-align: right;
+      white-space: nowrap;
+    }
+    th:first-child, td:first-child,
+    th:nth-child(2), td:nth-child(2),
+    th:nth-child(3), td:nth-child(3) {
+      text-align: left;
+    }
+    h2 {
+      margin: 6px 0 10px;
+      font-size: 16px;
+    }
+    h3 {
+      margin: 12px 0 6px;
+      font-size: 14px;
+      color: var(--accent);
+    }
+    ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    li {
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>台股每日投資報告</h1>
-  <p>尚未產生報表。請先執行 publish.sh。</p>
+  <header>
+    <h1>台股每日投資報告 (2026-02-09)</h1>
+    <div class="meta">產生時間: 2026-02-10 11:23</div>
+  </header>
+  <main>
+    <section class="card">
+      <h2>總覽</h2>
+      <div>市值: 660,000.00</div>
+      <div>成本: 676,000.00</div>
+      <div>未實現損益: -16,000.00</div>
+      <div>單日損益: -22,000.00</div>
+    </section>
+
+    <section class="card">
+      <h2>個股明細</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>代碼</th>
+            <th>名稱</th>
+            <th>市場</th>
+            <th>收盤</th>
+            <th>漲跌</th>
+            <th>漲跌幅</th>
+            <th>張數</th>
+            <th>均價</th>
+            <th>市值</th>
+            <th>單日損益</th>
+            <th>未實現損益</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        <tr>
+          <td>5209</td>
+          <td>新鼎</td>
+          <td>TPEx</td>
+          <td>165.00</td>
+          <td>-5.50</td>
+          <td>-3.23%</td>
+          <td>4.0</td>
+          <td>169.00</td>
+          <td>660,000.00</td>
+          <td>-22,000.00</td>
+          <td>-16,000.00</td>
+        </tr>
+        
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>相關新聞</h2>
+      <h3>5209 新鼎</h3><ul><li><a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE56aTlDZ3pvV2lCcXozeU9jNjNWU0JfalRGbUoyMzcxaUFOMnhSUkZwMVhtZlpRRE1fUEtsTVJ5Y0pKTktFV2lTeVVvMWllUm9rSkVHZjN2eVY?oc=5" target="_blank">5209 新鼎- 新鼎115年1月毛利大爆發｜CMoney 股市爆料同學會 - CMoney</a> <span class="meta">(CMoney) Fri, 06 Feb 2026 11:29:32 GMT</span></li><li><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcDhMcnl0NU04N3Q5b1VIWFc1dFVSdG9MVXZTM19EcXR3VDFMaE45SF9iWGQta1g3b3FVQzk4bUU5Sl80TXA5VUJ6QmZRZ0R6Y1VqQ0tmTjNlMnpNc2RsVzRhM1BsbVNkSmRPZ1dJUFlGQmJrc25LWklWcnBURkd6ZTdSV3l3T01C?oc=5" target="_blank">盈餘：新鼎(5209)1月合併稅前淨利3865萬元，每股稅前淨利1.36元 - 富聯網</a> <span class="meta">(富聯網) Mon, 09 Feb 2026 23:30:00 GMT</span></li><li><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxOZGNPTmhwNHJ5UW4wazlTamc2N0tmRC1neDZEQ1E4RDFTOE9vQnFhVm9peURkdGtZaHk1QWxTd3ZNQTdEYmp1TkRXOTZGdnVHZ0pPVkVPS0tBYmFLazRkR00wcGJlZXFiNDdCQTFjY1VGYU1lTG5uUG5GUllvc0EyN2ZDeWhXdVRhWWc?oc=5" target="_blank">【2026/01月營收公告】新鼎(5209) 一月營收2.99億元，營收雙減，年減19.52%-CMoney 小編 - CMoney投資網誌</a> <span class="meta">(CMoney投資網誌) Mon, 09 Feb 2026 08:10:16 GMT</span></li><li><a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SS1ViRXNnR2pnbmFRVEJCaUkwcTFub3owYVFuSjJockFxekctNzhoY0RQakxsQ2g5eG9wS1MwdmVZZl9IMUhhelhUSmlYeHA3VTVOY3I3clBrNFpjUXfSAWNBVV95cUxNa3NvR2tvZklTQTkzbkFfVEJIYUdkNVZjRzhsa3MxNV9mazlQcy1VSVdoYXZvOGFvRk5wTV9STzVHNDEyd2hpb3U0TDhDOUI5S0MtQThTbUdEdjlwSTRseExMUFU?oc=5" target="_blank">新鼎系統（5209）25第三次法說會摘要｜理柴知道:法說最速報! - 方格子 - Vocus</a> <span class="meta">(Vocus) Wed, 20 Aug 2025 07:00:00 GMT</span></li><li><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNXdxM3JYLUFtS1VHR1BqU1lnOTRBdWQwTzBWMDQyVGRQTW55Z2FyemhJazBJVXJta3NqNUNOTGlSUDVFendYR2ctLVNSZUlvZm9YUlJCYVJSeERBQVhNSjBiekNQT0stTFRzaXJrOV9YQ3VCM2FGbjhMdWJuVTNpbndCc3gzc1FT?oc=5" target="_blank">營收：新鼎(5209)1月營收2億9928萬元，月增率-48.15%，年增率-19.52% - 富聯網</a> <span class="meta">(富聯網) Fri, 06 Feb 2026 08:51:00 GMT</span></li></ul>
+    </section>
+  </main>
 </body>
 </html>

@@ -1,0 +1,6 @@
+# local data
+/data/
+/reports/
+
+# mac
+.DS_Store
